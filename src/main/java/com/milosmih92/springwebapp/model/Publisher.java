@@ -6,6 +6,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "publisher")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Publisher implements Serializable {

@@ -8,6 +8,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "author")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Author implements Serializable{
